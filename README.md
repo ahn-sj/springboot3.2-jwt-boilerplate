@@ -13,6 +13,10 @@
 - JWT 0.12.3
 - PostgreSQL 15.5
 
+<br/>
+
+---
+
 ## Jwt Info
 ```javascript
 claims = {email=sghg@sghg.kr, username=sghj, sub=1, iat=1700318366, exp=1700320166}
