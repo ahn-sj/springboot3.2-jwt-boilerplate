@@ -1,0 +1,23 @@
+### /api/v1/join
+POST http://localhost:8080/api/v1/join
+Content-Type: application/json
+
+{
+  "username": "sghj",
+  "email": "sghg@sghg.kr",
+  "password": "sghg"
+}
+
+### /api/v1/login
+POST http://localhost:8080/api/v1/login
+Content-Type: application/json
+
+{
+  "email": "sghg@sghg.kr",
+  "password": "sghg"
+}
+
+### /api/v1/login
+GET http://localhost:8080/api/v1/hello
+Content-Type: application/json
+Authorization: Bearer eyJhbGcxxxxxxxxxxxxxxxxxx
